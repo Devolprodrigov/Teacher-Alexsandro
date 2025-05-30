@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+header {
+  background: #005bbb;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+}
+header nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+}
+.perfil {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  background: #e6f0ff;
+  gap: 20px;
+}
+.perfil img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.perfil div {
+  max-width: 600px;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #005bbb;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+section {
+  padding: 40px;
+}
+section ul {
+  list-style: none;
+  padding: 0;
+}
+section ul li {
+  margin: 10px 0;
+}
+blockquote {
+  background: #eee;
+  padding: 10px 20px;
+  border-left: 5px solid #005bbb;
+  margin: 20px 0;
+}
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+form button {
+  background: #005bbb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+}
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
